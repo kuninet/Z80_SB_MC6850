@@ -1,0 +1,1302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/kuninet/git3/Z80_SB_MC6850/KiCAD/Z80-GRANT.sch</source>
+    <date>2018 December 28, Friday 22:55:56</date>
+    <tool>Eeschema (5.0.0-3-g5ebb6b6)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Z80 Sigleboard Computer (w/MC6850)</title>
+        <company/>
+        <rev>1</rev>
+        <date>2018-12-28</date>
+        <source>Z80-GRANT.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U6">
+      <value>28C256</value>
+      <footprint>Housings_DIP:DIP-28_W15.24mm_Socket</footprint>
+      <libsource lib="Z80-GRANT-rescue" part="28C256" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B93B023</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>62256</value>
+      <footprint>Housings_DIP:DIP-28_W15.24mm_Socket</footprint>
+      <libsource lib="Z80-GRANT-rescue" part="HM62256BLFP-4SLT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B93B080</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>Z80CPU</value>
+      <footprint>Housings_DIP:DIP-40_W15.24mm_Socket</footprint>
+      <libsource lib="userlib2" part="Z80CPU" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B93B50C</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>6850</value>
+      <footprint>Housings_DIP:DIP-24_W15.24mm_Socket</footprint>
+      <libsource lib="userlib2" part="MC6850-RESCUE-Z80-SBC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B93B662</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>74HC14</value>
+      <footprint>Housings_DIP:DIP-14_W7.62mm_Socket</footprint>
+      <libsource lib="Z80-GRANT-rescue" part="74HC14" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B93B88F</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>74LS32</value>
+      <footprint>Housings_DIP:DIP-14_W7.62mm_Socket</footprint>
+      <libsource lib="Z80-GRANT-rescue" part="74LS32" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B93B8F0</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1u</value>
+      <footprint>Capacitors_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B93BB8F</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1M</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B93BDC4</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B93BE69</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>7.3728MHz</value>
+      <footprint>Crystals:HC-49V</footprint>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B93BEED</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>22p</value>
+      <footprint>Capacitors_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B93BFB0</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>22p</value>
+      <footprint>Capacitors_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B93BFFE</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>2.2k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B93C9E7</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>47u</value>
+      <footprint>Capacitors_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <libsource lib="Device" part="CP" description="Polarised capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B93CA65</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D</value>
+      <footprint>Diodes_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B93CD30</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>Buttons_Switches_THT:SW_PUSH_6mm</footprint>
+      <libsource lib="Z80-GRANT-rescue" part="SW_Push" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B93CF28</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>74LS138</value>
+      <footprint>Housings_DIP:DIP-16_W7.62mm_Socket</footprint>
+      <libsource lib="Z80-GRANT-rescue" part="74LS138" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B93FF6C</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>74HC04</value>
+      <footprint>Housings_DIP:DIP-14_W7.62mm_Socket</footprint>
+      <libsource lib="Z80-GRANT-rescue" part="74HC04" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B94272B</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>ACIA-J</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x08</footprint>
+      <libsource lib="Z80-GRANT-rescue" part="Conn_02x08_Odd_Even" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B94557C</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>3.3k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B947436</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x06</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x06</footprint>
+      <libsource lib="Z80-GRANT-rescue" part="Conn_01x06" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9488AA</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>SBC8080 BUS</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_2x20</footprint>
+      <libsource lib="Z80-GRANT-rescue" part="Conn_02x20_Odd_Even" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B94C2FD</tstamp>
+    </comp>
+    <comp ref="RN1">
+      <value>R_Network08</value>
+      <footprint>Resistors_THT:R_Array_SIP9</footprint>
+      <libsource lib="Device" part="R_Network08" description="8 Resistor network, star topology, bussed resistors, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B955DF2</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Jack-DC</value>
+      <footprint>Connectors:BARREL_JACK</footprint>
+      <libsource lib="Z80-GRANT-rescue" part="Jack-DC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B93E60A</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_SPDT</value>
+      <footprint>digikey-footprints:Switch_Slide_11.6x4mm_EG1218</footprint>
+      <libsource lib="Z80-GRANT-rescue" part="SW_SPDT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B93E66F</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B93EC95</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LEDs:LED_D3.0mm</footprint>
+      <libsource lib="Device" part="LED" description="LED generic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B93EE93</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100u</value>
+      <footprint>Capacitors_THT:CP_Radial_D8.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="CP" description="Polarised capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B93FED8</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1u</value>
+      <footprint>Capacitors_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9410EA</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1u</value>
+      <footprint>Capacitors_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9419B1</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.1u</value>
+      <footprint>Capacitors_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B941A60</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>0.1u</value>
+      <footprint>Capacitors_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B941B39</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1u</value>
+      <footprint>Capacitors_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B941BC5</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>0.1u</value>
+      <footprint>Capacitors_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B941C54</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.1u</value>
+      <footprint>Capacitors_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B941DF0</tstamp>
+    </comp>
+    <comp ref="M1">
+      <value>MountingHole_M3</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Z80-GRANT-rescue" part="MountingHole_M3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B97BAA4</tstamp>
+    </comp>
+    <comp ref="M2">
+      <value>MountingHole_M3</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Z80-GRANT-rescue" part="MountingHole_M3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B97BB59</tstamp>
+    </comp>
+    <comp ref="M3">
+      <value>MountingHole_M3</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Z80-GRANT-rescue" part="MountingHole_M3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B97BC11</tstamp>
+    </comp>
+    <comp ref="M4">
+      <value>MountingHole_M3</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Z80-GRANT-rescue" part="MountingHole_M3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B97BCB3</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarised capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>LED generic</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Network08">
+      <description>8 Resistor network, star topology, bussed resistors, small symbol</description>
+      <docs>http://www.vishay.com/docs/31509/csc.pdf</docs>
+      <footprints>
+        <fp>R?Array?SIP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RN</field>
+        <field name="Value">R_Network08</field>
+        <field name="Footprint">Resistor_THT:R_Array_SIP9</field>
+      </fields>
+      <pins>
+        <pin num="1" name="common" type="passive"/>
+        <pin num="2" name="R1" type="passive"/>
+        <pin num="3" name="R2" type="passive"/>
+        <pin num="4" name="R3" type="passive"/>
+        <pin num="5" name="R4" type="passive"/>
+        <pin num="6" name="R5" type="passive"/>
+        <pin num="7" name="R6" type="passive"/>
+        <pin num="8" name="R7" type="passive"/>
+        <pin num="9" name="R8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Z80-GRANT-rescue" part="28C256">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">28C256</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A14" type="input"/>
+        <pin num="2" name="A12" type="input"/>
+        <pin num="3" name="A7" type="input"/>
+        <pin num="4" name="A6" type="input"/>
+        <pin num="5" name="A5" type="input"/>
+        <pin num="6" name="A4" type="input"/>
+        <pin num="7" name="A3" type="input"/>
+        <pin num="8" name="A2" type="input"/>
+        <pin num="9" name="A1" type="input"/>
+        <pin num="10" name="A0" type="input"/>
+        <pin num="11" name="D0" type="3state"/>
+        <pin num="12" name="D1" type="3state"/>
+        <pin num="13" name="D2" type="3state"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="D3" type="3state"/>
+        <pin num="16" name="D4" type="3state"/>
+        <pin num="17" name="D5" type="3state"/>
+        <pin num="18" name="D6" type="3state"/>
+        <pin num="19" name="D7" type="3state"/>
+        <pin num="20" name="CS" type="input"/>
+        <pin num="21" name="A10" type="input"/>
+        <pin num="22" name="OE" type="input"/>
+        <pin num="23" name="A11" type="input"/>
+        <pin num="24" name="A9" type="input"/>
+        <pin num="25" name="A8" type="input"/>
+        <pin num="26" name="A13" type="input"/>
+        <pin num="27" name="WE" type="input"/>
+        <pin num="28" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Z80-GRANT-rescue" part="74HC04">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="output"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="output"/>
+        <pin num="11" name="~" type="input"/>
+        <pin num="12" name="~" type="output"/>
+        <pin num="13" name="~" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Z80-GRANT-rescue" part="74HC14">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="output"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="output"/>
+        <pin num="11" name="~" type="input"/>
+        <pin num="12" name="~" type="output"/>
+        <pin num="13" name="~" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Z80-GRANT-rescue" part="74LS138">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS138</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="E1" type="input"/>
+        <pin num="5" name="E2" type="input"/>
+        <pin num="6" name="E3" type="input"/>
+        <pin num="7" name="O7" type="output"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="O6" type="output"/>
+        <pin num="10" name="O5" type="output"/>
+        <pin num="11" name="O4" type="output"/>
+        <pin num="12" name="O3" type="output"/>
+        <pin num="13" name="O2" type="output"/>
+        <pin num="14" name="O1" type="output"/>
+        <pin num="15" name="O0" type="output"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Z80-GRANT-rescue" part="74LS32">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS32</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="output"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="input"/>
+        <pin num="11" name="~" type="output"/>
+        <pin num="12" name="~" type="input"/>
+        <pin num="13" name="~" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Z80-GRANT-rescue" part="Conn_01x06">
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Z80-GRANT-rescue" part="Conn_02x08_Odd_Even">
+      <footprints>
+        <fp>Connector*:*2x??x*mm*</fp>
+        <fp>Connector*:*2x???Pitch*</fp>
+        <fp>Pin_Header_Straight_2X*</fp>
+        <fp>Pin_Header_Angled_2X*</fp>
+        <fp>Socket_Strip_Straight_2X*</fp>
+        <fp>Socket_Strip_Angled_2X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x08_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Z80-GRANT-rescue" part="Conn_02x20_Odd_Even">
+      <footprints>
+        <fp>Connector*:*2x??x*mm*</fp>
+        <fp>Connector*:*2x???Pitch*</fp>
+        <fp>Pin_Header_Straight_2X*</fp>
+        <fp>Pin_Header_Angled_2X*</fp>
+        <fp>Socket_Strip_Straight_2X*</fp>
+        <fp>Socket_Strip_Angled_2X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x20_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+        <pin num="37" name="Pin_37" type="passive"/>
+        <pin num="38" name="Pin_38" type="passive"/>
+        <pin num="39" name="Pin_39" type="passive"/>
+        <pin num="40" name="Pin_40" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Z80-GRANT-rescue" part="HM62256BLFP-4SLT">
+      <footprints>
+        <fp>SO*28*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HM62256BLFP-4SLT</field>
+        <field name="Footprint">SOP28</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A14" type="input"/>
+        <pin num="2" name="A12" type="input"/>
+        <pin num="3" name="A7" type="input"/>
+        <pin num="4" name="A6" type="input"/>
+        <pin num="5" name="A5" type="input"/>
+        <pin num="6" name="A4" type="input"/>
+        <pin num="7" name="A3" type="input"/>
+        <pin num="8" name="A2" type="input"/>
+        <pin num="9" name="A1" type="input"/>
+        <pin num="10" name="A0" type="input"/>
+        <pin num="11" name="D0" type="3state"/>
+        <pin num="12" name="D1" type="3state"/>
+        <pin num="13" name="D2" type="3state"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="D3" type="3state"/>
+        <pin num="16" name="D4" type="3state"/>
+        <pin num="17" name="D5" type="3state"/>
+        <pin num="18" name="D6" type="3state"/>
+        <pin num="19" name="D7" type="3state"/>
+        <pin num="20" name="~CS" type="input"/>
+        <pin num="21" name="A10" type="input"/>
+        <pin num="22" name="~OE" type="input"/>
+        <pin num="23" name="A11" type="input"/>
+        <pin num="24" name="A9" type="input"/>
+        <pin num="25" name="A8" type="input"/>
+        <pin num="26" name="A13" type="input"/>
+        <pin num="27" name="~WE" type="input"/>
+        <pin num="28" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Z80-GRANT-rescue" part="Jack-DC">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Jack-DC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Z80-GRANT-rescue" part="MountingHole_M3">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">MountingHole_M3</field>
+      </fields>
+    </libpart>
+    <libpart lib="Z80-GRANT-rescue" part="SW_Push">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Z80-GRANT-rescue" part="SW_SPDT">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="userlib2" part="MC6850-RESCUE-Z80-SBC">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MC6850-RESCUE-Z80-SBC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="RXD" type="output"/>
+        <pin num="3" name="RxCLK" type="input"/>
+        <pin num="4" name="TxCLK" type="input"/>
+        <pin num="5" name="~RTS" type="output"/>
+        <pin num="6" name="TXD" type="output"/>
+        <pin num="7" name="~IRQ" type="output"/>
+        <pin num="8" name="CS0" type="input"/>
+        <pin num="9" name="~CS2" type="input"/>
+        <pin num="10" name="CS1" type="input"/>
+        <pin num="11" name="RS" type="input"/>
+        <pin num="12" name="Vcc" type="power_in"/>
+        <pin num="13" name="R/~W" type="input"/>
+        <pin num="14" name="E" type="input"/>
+        <pin num="15" name="D7" type="input"/>
+        <pin num="16" name="D6" type="input"/>
+        <pin num="17" name="D5" type="input"/>
+        <pin num="18" name="D4" type="input"/>
+        <pin num="19" name="D3" type="input"/>
+        <pin num="20" name="D2" type="input"/>
+        <pin num="21" name="D1" type="input"/>
+        <pin num="22" name="D0" type="input"/>
+        <pin num="23" name="~DCD" type="output"/>
+        <pin num="24" name="~CTS" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="userlib2" part="Z80CPU">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Z80CPU</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A11" type="output"/>
+        <pin num="2" name="A12" type="output"/>
+        <pin num="3" name="A13" type="output"/>
+        <pin num="4" name="A14" type="output"/>
+        <pin num="5" name="A15" type="output"/>
+        <pin num="6" name="CLK" type="input"/>
+        <pin num="7" name="D4" type="BiDi"/>
+        <pin num="8" name="D3" type="BiDi"/>
+        <pin num="9" name="D5" type="BiDi"/>
+        <pin num="10" name="D6" type="BiDi"/>
+        <pin num="11" name="Vcc" type="power_in"/>
+        <pin num="12" name="D2" type="BiDi"/>
+        <pin num="13" name="D7" type="BiDi"/>
+        <pin num="14" name="D0" type="BiDi"/>
+        <pin num="15" name="D1" type="BiDi"/>
+        <pin num="16" name="~INT" type="input"/>
+        <pin num="17" name="~NMI" type="input"/>
+        <pin num="18" name="HALT" type="output"/>
+        <pin num="19" name="~MREQ" type="output"/>
+        <pin num="20" name="~IOREQ" type="output"/>
+        <pin num="21" name="~RD" type="output"/>
+        <pin num="22" name="~WR" type="output"/>
+        <pin num="23" name="~BUSAK" type="output"/>
+        <pin num="24" name="~WAIT" type="input"/>
+        <pin num="25" name="~BUSREQ" type="input"/>
+        <pin num="26" name="~RESET" type="input"/>
+        <pin num="27" name="~M1" type="output"/>
+        <pin num="28" name="~RFSH" type="output"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="A0" type="output"/>
+        <pin num="31" name="A1" type="output"/>
+        <pin num="32" name="A2" type="output"/>
+        <pin num="33" name="A3" type="output"/>
+        <pin num="34" name="A4" type="output"/>
+        <pin num="35" name="A5" type="output"/>
+        <pin num="36" name="A6" type="output"/>
+        <pin num="37" name="A7" type="output"/>
+        <pin num="38" name="A8" type="output"/>
+        <pin num="39" name="A9" type="output"/>
+        <pin num="40" name="A10" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/Library/Application Support/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Z80-GRANT-rescue">
+      <uri>/Users/kuninet/git3/Z80_SB_MC6850/KiCAD/Z80-GRANT-rescue.lib</uri>
+    </library>
+    <library logical="userlib2">
+      <uri>/Users/kuninet/Library/Mobile Documents/com~apple~CloudDocs/git-work/LIB/userlib2.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="J3" pin="2"/>
+      <node ref="J3" pin="4"/>
+      <node ref="U3" pin="7"/>
+      <node ref="U3" pin="13"/>
+      <node ref="U4" pin="14"/>
+      <node ref="U3" pin="7"/>
+      <node ref="U3" pin="7"/>
+      <node ref="U3" pin="7"/>
+      <node ref="U3" pin="11"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J4" pin="2"/>
+      <node ref="U2" pin="13"/>
+      <node ref="D2" pin="1"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U2" pin="11"/>
+      <node ref="U3" pin="7"/>
+      <node ref="U1" pin="29"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U2" pin="9"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U3" pin="7"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U8" pin="1"/>
+      <node ref="U5" pin="8"/>
+      <node ref="U5" pin="5"/>
+      <node ref="U5" pin="4"/>
+      <node ref="U8" pin="23"/>
+      <node ref="U6" pin="14"/>
+      <node ref="U7" pin="7"/>
+      <node ref="U7" pin="7"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U7" pin="7"/>
+      <node ref="U7" pin="7"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="2" name="VCC">
+      <node ref="C8" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="J3" pin="3"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U7" pin="14"/>
+      <node ref="U6" pin="27"/>
+      <node ref="U7" pin="14"/>
+      <node ref="U6" pin="28"/>
+      <node ref="U2" pin="14"/>
+      <node ref="U3" pin="14"/>
+      <node ref="U4" pin="28"/>
+      <node ref="U2" pin="14"/>
+      <node ref="U3" pin="14"/>
+      <node ref="U7" pin="14"/>
+      <node ref="U8" pin="8"/>
+      <node ref="U3" pin="14"/>
+      <node ref="U7" pin="14"/>
+      <node ref="U3" pin="14"/>
+      <node ref="U5" pin="16"/>
+      <node ref="U5" pin="6"/>
+      <node ref="R1" pin="2"/>
+      <node ref="RN1" pin="1"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="U8" pin="10"/>
+      <node ref="U1" pin="11"/>
+      <node ref="U2" pin="14"/>
+      <node ref="U2" pin="14"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U1" pin="17"/>
+      <node ref="U3" pin="14"/>
+      <node ref="U2" pin="14"/>
+      <node ref="U2" pin="14"/>
+      <node ref="U1" pin="24"/>
+      <node ref="U1" pin="25"/>
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="3" name="~INT">
+      <node ref="U8" pin="7"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="4" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="5" name="Net-(U1-Pad23)">
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="6" name="Net-(U1-Pad26)">
+      <node ref="U2" pin="2"/>
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="7" name="Net-(U1-Pad27)">
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="8" name="Net-(U1-Pad28)">
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="9" name="CLK">
+      <node ref="U8" pin="4"/>
+      <node ref="U1" pin="6"/>
+      <node ref="J3" pin="8"/>
+      <node ref="U8" pin="3"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="10" name="Vcc">
+      <node ref="U8" pin="12"/>
+    </net>
+    <net code="11" name="Net-(U3-Pad8)">
+      <node ref="U8" pin="14"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="12" name="Net-(J2-Pad4)">
+      <node ref="U8" pin="2"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="13" name="Net-(J2-Pad6)">
+      <node ref="U8" pin="24"/>
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="14" name="Net-(J2-Pad2)">
+      <node ref="U8" pin="5"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="15" name="Net-(J2-Pad5)">
+      <node ref="J2" pin="5"/>
+      <node ref="U8" pin="6"/>
+    </net>
+    <net code="16" name="Net-(J1-Pad10)">
+      <node ref="U8" pin="9"/>
+      <node ref="J1" pin="10"/>
+      <node ref="J1" pin="12"/>
+      <node ref="J1" pin="8"/>
+      <node ref="J1" pin="6"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J1" pin="16"/>
+      <node ref="J1" pin="14"/>
+    </net>
+    <net code="17" name="Net-(C2-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="Y1" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="18" name="Net-(C3-Pad1)">
+      <node ref="U3" pin="3"/>
+      <node ref="R3" pin="1"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="19" name="RES">
+      <node ref="J3" pin="21"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="20" name="~RESIN">
+      <node ref="D1" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="J3" pin="6"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="21" name="D0">
+      <node ref="RN1" pin="2"/>
+      <node ref="U6" pin="11"/>
+      <node ref="U1" pin="14"/>
+      <node ref="J3" pin="9"/>
+      <node ref="U4" pin="11"/>
+      <node ref="U8" pin="22"/>
+    </net>
+    <net code="22" name="D1">
+      <node ref="U6" pin="12"/>
+      <node ref="J3" pin="10"/>
+      <node ref="U8" pin="21"/>
+      <node ref="U1" pin="15"/>
+      <node ref="RN1" pin="3"/>
+      <node ref="U4" pin="12"/>
+    </net>
+    <net code="23" name="D2">
+      <node ref="RN1" pin="4"/>
+      <node ref="J3" pin="11"/>
+      <node ref="U8" pin="20"/>
+      <node ref="U6" pin="13"/>
+      <node ref="U1" pin="12"/>
+      <node ref="U4" pin="13"/>
+    </net>
+    <net code="24" name="D3">
+      <node ref="U4" pin="15"/>
+      <node ref="U6" pin="15"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U8" pin="19"/>
+      <node ref="J3" pin="12"/>
+      <node ref="RN1" pin="5"/>
+    </net>
+    <net code="25" name="D4">
+      <node ref="J3" pin="13"/>
+      <node ref="RN1" pin="6"/>
+      <node ref="U8" pin="18"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U4" pin="16"/>
+      <node ref="U6" pin="16"/>
+    </net>
+    <net code="26" name="D5">
+      <node ref="J3" pin="14"/>
+      <node ref="U6" pin="17"/>
+      <node ref="RN1" pin="7"/>
+      <node ref="U4" pin="17"/>
+      <node ref="U8" pin="17"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="27" name="D6">
+      <node ref="J3" pin="15"/>
+      <node ref="U6" pin="18"/>
+      <node ref="U4" pin="18"/>
+      <node ref="RN1" pin="8"/>
+      <node ref="U8" pin="16"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="28" name="D7">
+      <node ref="U8" pin="15"/>
+      <node ref="J3" pin="16"/>
+      <node ref="U1" pin="13"/>
+      <node ref="U4" pin="19"/>
+      <node ref="U6" pin="19"/>
+      <node ref="RN1" pin="9"/>
+    </net>
+    <net code="29" name="A0">
+      <node ref="U6" pin="10"/>
+      <node ref="J3" pin="25"/>
+      <node ref="U1" pin="30"/>
+      <node ref="U4" pin="10"/>
+      <node ref="U8" pin="11"/>
+    </net>
+    <net code="30" name="A1">
+      <node ref="J3" pin="26"/>
+      <node ref="U6" pin="9"/>
+      <node ref="U4" pin="9"/>
+      <node ref="U1" pin="31"/>
+    </net>
+    <net code="31" name="A2">
+      <node ref="J3" pin="27"/>
+      <node ref="U6" pin="8"/>
+      <node ref="U4" pin="8"/>
+      <node ref="U1" pin="32"/>
+    </net>
+    <net code="32" name="A3">
+      <node ref="U1" pin="33"/>
+      <node ref="J3" pin="28"/>
+      <node ref="U6" pin="7"/>
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="33" name="A4">
+      <node ref="U1" pin="34"/>
+      <node ref="J3" pin="29"/>
+      <node ref="U6" pin="6"/>
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="34" name="A5">
+      <node ref="J3" pin="30"/>
+      <node ref="U5" pin="1"/>
+      <node ref="U4" pin="5"/>
+      <node ref="U6" pin="5"/>
+      <node ref="U1" pin="35"/>
+    </net>
+    <net code="35" name="A6">
+      <node ref="U1" pin="36"/>
+      <node ref="U6" pin="4"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U5" pin="2"/>
+      <node ref="J3" pin="31"/>
+    </net>
+    <net code="36" name="A7">
+      <node ref="U5" pin="3"/>
+      <node ref="J3" pin="32"/>
+      <node ref="U1" pin="37"/>
+      <node ref="U6" pin="3"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="37" name="A8">
+      <node ref="U4" pin="25"/>
+      <node ref="U6" pin="25"/>
+      <node ref="U1" pin="38"/>
+      <node ref="J3" pin="33"/>
+    </net>
+    <net code="38" name="A9">
+      <node ref="U6" pin="24"/>
+      <node ref="U4" pin="24"/>
+      <node ref="U1" pin="39"/>
+      <node ref="J3" pin="34"/>
+    </net>
+    <net code="39" name="A10">
+      <node ref="U6" pin="21"/>
+      <node ref="U1" pin="40"/>
+      <node ref="U4" pin="21"/>
+      <node ref="J3" pin="35"/>
+    </net>
+    <net code="40" name="A11">
+      <node ref="J3" pin="36"/>
+      <node ref="U6" pin="23"/>
+      <node ref="U4" pin="23"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="41" name="A12">
+      <node ref="J3" pin="37"/>
+      <node ref="U6" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="42" name="A13">
+      <node ref="U1" pin="3"/>
+      <node ref="U6" pin="26"/>
+      <node ref="U4" pin="26"/>
+      <node ref="J3" pin="38"/>
+    </net>
+    <net code="43" name="A14">
+      <node ref="U6" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U4" pin="1"/>
+      <node ref="J3" pin="39"/>
+    </net>
+    <net code="44" name="A15">
+      <node ref="J3" pin="40"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U6" pin="20"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="45" name="~MREQ">
+      <node ref="U1" pin="19"/>
+      <node ref="U7" pin="2"/>
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="46" name="~IOREQ">
+      <node ref="U7" pin="12"/>
+      <node ref="U3" pin="9"/>
+      <node ref="U1" pin="20"/>
+      <node ref="U7" pin="10"/>
+    </net>
+    <net code="47" name="~RD">
+      <node ref="U1" pin="21"/>
+      <node ref="U7" pin="1"/>
+      <node ref="U7" pin="9"/>
+    </net>
+    <net code="48" name="~WR">
+      <node ref="U1" pin="22"/>
+      <node ref="U7" pin="5"/>
+      <node ref="U7" pin="13"/>
+      <node ref="U8" pin="13"/>
+    </net>
+    <net code="49" name="~MEMRD">
+      <node ref="U6" pin="22"/>
+      <node ref="U4" pin="22"/>
+      <node ref="U7" pin="3"/>
+      <node ref="J3" pin="18"/>
+    </net>
+    <net code="50" name="~MEMWR">
+      <node ref="U7" pin="6"/>
+      <node ref="J3" pin="20"/>
+      <node ref="U4" pin="27"/>
+    </net>
+    <net code="51" name="~IORD">
+      <node ref="U7" pin="8"/>
+      <node ref="J3" pin="17"/>
+    </net>
+    <net code="52" name="~IOWR">
+      <node ref="U7" pin="11"/>
+      <node ref="J3" pin="19"/>
+    </net>
+    <net code="53" name="Net-(U3-Pad6)">
+      <node ref="U3" pin="6"/>
+      <node ref="U4" pin="20"/>
+    </net>
+    <net code="54" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="U5" pin="15"/>
+    </net>
+    <net code="55" name="Net-(J1-Pad11)">
+      <node ref="J1" pin="11"/>
+      <node ref="U5" pin="10"/>
+    </net>
+    <net code="56" name="Net-(J1-Pad13)">
+      <node ref="J1" pin="13"/>
+      <node ref="U5" pin="9"/>
+    </net>
+    <net code="57" name="Net-(J1-Pad15)">
+      <node ref="J1" pin="15"/>
+      <node ref="U5" pin="7"/>
+    </net>
+    <net code="58" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+      <node ref="U5" pin="14"/>
+    </net>
+    <net code="59" name="Net-(J1-Pad5)">
+      <node ref="U5" pin="13"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="60" name="Net-(J1-Pad7)">
+      <node ref="U5" pin="12"/>
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="61" name="Net-(J1-Pad9)">
+      <node ref="U5" pin="11"/>
+      <node ref="J1" pin="9"/>
+    </net>
+    <net code="62" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="63" name="Net-(J3-Pad22)">
+      <node ref="J3" pin="22"/>
+    </net>
+    <net code="64" name="Net-(J3-Pad23)">
+      <node ref="J3" pin="23"/>
+    </net>
+    <net code="65" name="Net-(J3-Pad24)">
+      <node ref="J3" pin="24"/>
+    </net>
+    <net code="66" name="Net-(J3-Pad5)">
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="67" name="Net-(J3-Pad7)">
+      <node ref="J3" pin="7"/>
+    </net>
+    <net code="68" name="Net-(U3-Pad12)">
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="69" name="Net-(R2-Pad2)">
+      <node ref="U3" pin="4"/>
+      <node ref="U3" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="70" name="Net-(U3-Pad10)">
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="71" name="Net-(J4-Pad3)">
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="72" name="Net-(SW2-Pad1)">
+      <node ref="SW2" pin="1"/>
+    </net>
+    <net code="73" name="Net-(J4-Pad1)">
+      <node ref="SW2" pin="3"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="74" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="75" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="76" name="Net-(U2-Pad8)">
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="77" name="Net-(U2-Pad10)">
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="78" name="Net-(U2-Pad12)">
+      <node ref="U2" pin="12"/>
+    </net>
+  </nets>
+</export>

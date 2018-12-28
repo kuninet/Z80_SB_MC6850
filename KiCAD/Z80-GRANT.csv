@@ -1,0 +1,27 @@
+部品番号,仕様,数量,代替部品, Footprint
+U1,Z84C0020PEC,1,Z80 CPU,Housings_DIP:DIP-40_W15.24mm_Socket
+U2,74HC14,1,74HCT14,Housings_DIP:DIP-14_W7.62mm_Socket
+U3,74HC04,1,74HCT04、74HCU04,Housings_DIP:DIP-14_W7.62mm_Socket
+U4,62256型SRAM,1,,Housings_DIP:DIP-28_W15.24mm_Socket
+U5,74HC138,1,74HCT138,Housings_DIP:DIP-16_W7.62mm_Socket
+U6,28C256型EEPROM,1,,Housings_DIP:DIP-28_W15.24mm_Socket
+U7,74HC32,1,75HCT32,Housings_DIP:DIP-14_W7.62mm_Socket
+U8,MC6850,1,,Housings_DIP:DIP-24_W15.24mm_Socket
+R1,3.3k,1,1/4W カーボン抵抗器,Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R2、R5,1kΩ,1,1/4W カーボン抵抗器,Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R3,1MΩ,1,1/4W カーボン抵抗器,Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+R4,2.2kΩ,1,1/4W カーボン抵抗器,Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+Y1,7.3728MHz,1,水晶振動子,Crystals:HC-49V
+C1、C6〜C12,0.1u,8,積層セラミックコンデンサ,Capacitors_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm
+C2、C3,22pF,2,積層セラミックコンデンサ,Capacitors_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm
+C4,47uF,1,電解コンデンサ,Capacitors_THT:CP_Radial_D4.0mm_P1.50mm
+C5,100uF,1,電解コンデンサ,Capacitors_THT:CP_Radial_D8.0mm_P2.50mm
+SW1,タクトスイッチ,1,リセット用タクトスイッチ,Buttons_Switches_THT:SW_PUSH_6mm
+J1,2列x8 ピンヘッダ,1,,Pin_Headers:Pin_Header_Straight_2x08
+J2,01x06 L型ピンヘッダ,1,,Pin_Headers:Pin_Header_Angled_1x06
+J3,40pinL型ボックスヘッダ,1,2x20 L型ピンヘッダ,Pin_Headers:Pin_Header_Angled_2x20
+J4,MJ-179PH,1,同型のDCジャック同等品,Connectors:BARREL_JACK
+SW2,基板実装用スライドスイッチ,1,,digikey-footprints:Switch_Slide_11.6x4mm_EG1218
+RN1,10kΩ集合抵抗器,1,9pin 集合抵抗器 10k,Resistors_THT:R_Array_SIP9
+D1,1S1588,1,小電力ダイオード,Diodes_THT:D_A-405_P7.62mm_Horizontal
+D2,LED,1,3mm LED,LEDs:LED_D3.0mm

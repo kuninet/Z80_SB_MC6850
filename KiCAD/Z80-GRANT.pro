@@ -1,4 +1,4 @@
-update=2018 December 25, Tuesday 22:15:58
+update=2018 December 28, Friday 23:27:26
 version=1
 last_client=kicad
 [pcbnew]
@@ -31,7 +31,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=../img/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
